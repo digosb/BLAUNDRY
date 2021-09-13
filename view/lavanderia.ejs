@@ -1,0 +1,38 @@
+<%- include ("./parciais/head.ejs") %>
+    <body>
+<%- include ("./parciais/navbar.ejs") %>
+    
+        <div class="container">
+        <div class="card" id="formulárioLavanderia">
+            <div class="card-header">
+                <h3>Função Maquina de Lavar</h3>
+                <div class="card-body">
+                    <form method="POST" action="/funcLavanda">
+                        <div>
+                            <label>Nivel de Agua</label>
+                            <input type="texto" nome="nivelAgua" value="" placeholder="Nivel de Agua" class="form-control">
+                        </div>
+
+                        <div>
+                            <label>Tipo de Lavagem </label>
+                            <input type="texto" nome="tipoLavagem" value="" placeholder="Tipo de Lavagem" class="form-control">
+                        </div>
+                        <div>
+                        <br>
+                            <button class="btn btn-primary">Adicionar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+        
+    </div>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>

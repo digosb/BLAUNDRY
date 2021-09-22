@@ -52,11 +52,15 @@ header .navbar {
 }
 
 #home-menu {
-    background-color: darkblue;
     text-transform: capitalize;
     border-radius: 30px;
     border: brown;
     transition: .5s;
+}
+
+#cadastro-menu {
+    background-color: red;
+    transition-property: none;
 }
 
 
@@ -84,17 +88,10 @@ header .navbar {
 #carouselExampleDark .carousel-caption p {
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: blue;
 }
 
-#main-btn {
-    background-color: red;
-    color: white;
-    text-transform: uppercase;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 3px solid transparent;
-    transition: .5s;
-}
+#main-btn {}
+
+;
